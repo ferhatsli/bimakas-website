@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { Globe, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
@@ -65,7 +66,7 @@ export const Navbar: React.FC = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/10 backdrop-blur-xl border-b border-white/10 ">
       <div className="container mx-auto px-6 lg:px-8 h-16 flex items-center justify-between max-w-[1400px]">
         {/* Logo */}
-        <div className="flex items-center">
+        <Link href="/" className="flex items-center cursor-pointer hover:opacity-80 transition-opacity">
           <img 
             src="/logo.png" 
             alt={config.brand.logo.alt[currentLanguage] || 'BiMakas Logo'} 
@@ -74,7 +75,7 @@ export const Navbar: React.FC = () => {
           <div className="text-2xl font-bold" style={{ color: config.brand.colors.text }}>
             {t('navigation.logo')}
           </div>
-        </div>
+        </Link>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
