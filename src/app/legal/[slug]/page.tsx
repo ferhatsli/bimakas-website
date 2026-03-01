@@ -92,55 +92,52 @@ const MarkdownSection = ({ content }: { content: string }) => {
   return (
     <div className="space-y-3 text-gray-800">
       {blocks.map((block, index) => {
-        if (block.type === "h1") {
-          return (
-            <h3 key={index} className="text-xl font-bold text-gray-900">
-              {block.text}
-            </h3>
-          );
+        switch (block.type) {
+          case "h1":
+            return (
+              <h3 key={index} className="text-xl font-bold text-gray-900">
+                {block.text}
+              </h3>
+            );
+          case "h2":
+            return (
+              <h4 key={index} className="text-lg font-semibold text-gray-900">
+                {block.text}
+              </h4>
+            );
+          case "h3":
+            return (
+              <h5 key={index} className="text-base font-semibold text-gray-900">
+                {block.text}
+              </h5>
+            );
+          case "ul":
+            return (
+              <ul key={index} className="list-disc space-y-1 pl-6 text-sm sm:text-base">
+                {block.items.map((item, itemIndex) => (
+                  <li key={`${index}-${itemIndex}`}>{item}</li>
+                ))}
+              </ul>
+            );
+          case "ol":
+            return (
+              <ol key={index} className="list-decimal space-y-1 pl-6 text-sm sm:text-base">
+                {block.items.map((item, itemIndex) => (
+                  <li key={`${index}-${itemIndex}`}>{item}</li>
+                ))}
+              </ol>
+            );
+          case "p":
+            return (
+              <p key={index} className="text-sm leading-7 text-gray-700 sm:text-base">
+                {block.text}
+              </p>
+            );
+          default: {
+            const _exhaustiveCheck: never = block;
+            return _exhaustiveCheck;
+          }
         }
-
-        if (block.type === "h2") {
-          return (
-            <h4 key={index} className="text-lg font-semibold text-gray-900">
-              {block.text}
-            </h4>
-          );
-        }
-
-        if (block.type === "h3") {
-          return (
-            <h5 key={index} className="text-base font-semibold text-gray-900">
-              {block.text}
-            </h5>
-          );
-        }
-
-        if (block.type === "ul") {
-          return (
-            <ul key={index} className="list-disc space-y-1 pl-6 text-sm sm:text-base">
-              {block.items.map((item, itemIndex) => (
-                <li key={`${index}-${itemIndex}`}>{item}</li>
-              ))}
-            </ul>
-          );
-        }
-
-        if (block.type === "ol") {
-          return (
-            <ol key={index} className="list-decimal space-y-1 pl-6 text-sm sm:text-base">
-              {block.items.map((item, itemIndex) => (
-                <li key={`${index}-${itemIndex}`}>{item}</li>
-              ))}
-            </ol>
-          );
-        }
-
-        return (
-          <p key={index} className="text-sm leading-7 text-gray-700 sm:text-base">
-            {block.text}
-          </p>
-        );
       })}
     </div>
   );
