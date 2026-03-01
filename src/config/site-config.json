@@ -143,11 +143,31 @@
         "links": [
           {
             "label": "Privacy Policy",
-            "href": "/privacy"
+            "href": "/legal/privacy-policy"
           },
           {
-            "label": "Terms of use",
-            "href": "/terms"
+            "label": "Terms of Use",
+            "href": "/legal/terms-of-use"
+          },
+          {
+            "label": "Support",
+            "href": "/legal/support"
+          },
+          {
+            "label": "FAQ",
+            "href": "/legal/faq"
+          },
+          {
+            "label": "Cancellation & Refund",
+            "href": "/legal/cancellation-and-refund-policy"
+          },
+          {
+            "label": "Account Deletion",
+            "href": "/legal/account-deletion"
+          },
+          {
+            "label": "App Store Legal Links",
+            "href": "/legal/app-store-legal-links"
           }
         ]
       },
@@ -324,11 +344,31 @@
         "links": [
           {
             "label": "Gizlilik Politikası",
-            "href": "/privacy"
+            "href": "/legal/privacy-policy"
           },
           {
             "label": "Kullanım Şartları",
-            "href": "/terms"
+            "href": "/legal/terms-of-use"
+          },
+          {
+            "label": "Destek",
+            "href": "/legal/support"
+          },
+          {
+            "label": "SSS",
+            "href": "/legal/faq"
+          },
+          {
+            "label": "İptal ve İade",
+            "href": "/legal/cancellation-and-refund-policy"
+          },
+          {
+            "label": "Hesap Silme",
+            "href": "/legal/account-deletion"
+          },
+          {
+            "label": "App Store Hukuki Linkleri",
+            "href": "/legal/app-store-legal-links"
           }
         ]
       },
