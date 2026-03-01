@@ -1,4 +1,86 @@
-# BiMakas Kullanici Sozlesmesi (Kullanim Sartlari)
+# BiMakas User Agreement (Terms of Use)
+
+## English
+
+Effective Date: March 1, 2026  
+Last Updated: March 1, 2026
+
+## 1. Parties
+
+This agreement is entered into between Muhammet Sinan Baysan ("Company") and the person using the BiMakas mobile app/web platform ("User").
+
+## 2. Subject of the Agreement
+
+This agreement defines the terms of use of the BiMakas platform and the rights/obligations of the parties. By using the app, the User accepts these terms.
+
+## 3. Service Definition
+
+BiMakas is a digital platform that enables users to create appointments for barber and beauty services, make payments, and communicate with service providers.
+
+Services are provided:
+
+- By professionals within the platform team, or
+- By independent service providers registered on the platform.
+
+## 4. Membership and Account Security
+
+The User is responsible for:
+
+- Providing accurate and up-to-date information during registration,
+- Protecting the confidentiality of account credentials,
+- Being responsible for actions performed through their account.
+
+The Company may temporarily or permanently restrict an account in suspected security situations.
+
+## 5. Rules of Use
+
+The User may not use the platform:
+
+- For unlawful purposes,
+- In a way that harms others,
+- For unfair commercial gain or manipulative purposes,
+- Through attempts that compromise system security.
+
+## 6. Appointment, Payment, Cancellation, and Refund
+
+- Appointment conditions may vary by selected service and provider.
+- Payment is made through approved methods within the app.
+- Cancellation/refund conditions may vary based on time remaining until the appointment.
+- Approved refunds may be reflected within 3-10 business days depending on the bank.
+
+For details, see the separate policy: `CANCELLATION_AND_REFUND_POLICY.md`.
+
+## 7. Intellectual Property
+
+All intellectual property rights related to app software, design, brand, logo, and content belong to the Company. They may not be copied, distributed, or used commercially without written permission.
+
+## 8. Limitation of Liability
+
+The Company does not guarantee uninterrupted or error-free operation of the app. Liability for indirect damages arising from technical failures, third-party service outages, and similar events is limited to the extent permitted by law.
+
+## 9. Account Suspension and Termination
+
+If the User violates this agreement, the Company may:
+
+- Temporarily suspend access,
+- Permanently terminate membership/service.
+
+The User may also request account closure at any time.
+
+## 10. Right to Amend
+
+The Company may update this agreement in line with legal or operational needs. The updated text enters into force on the date it is published.
+
+## 11. Governing Law and Jurisdiction
+
+Disputes arising from this agreement are subject to the jurisdiction of Istanbul Courts and Enforcement Offices.
+
+## 12. Contact
+
+- Email: info@bimakas.com
+- Web: https://bimakas.com/
+
+## Turkce
 
 Yururluk Tarihi: 1 Mart 2026
 Son Guncelleme: 1 Mart 2026
@@ -77,4 +159,3 @@ Isbu sozlesmeden dogan uyusmazliklarda Istanbul Mahkemeleri ve Icra Daireleri ye
 
 - E-posta: info@bimakas.com
 - Web: https://bimakas.com/
-
